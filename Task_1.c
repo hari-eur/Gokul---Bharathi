@@ -1,3 +1,7 @@
+/*
+Task - 1
+Write a program to get username and password from the user and print them. */
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
