@@ -1,3 +1,12 @@
+/* 
+Task - 2
+Let's Play with printf()
+Get any array from the user print the array using printf() 
+and if print is successful and the total number of characters printed is less 10 print "the count is less" and the count with it,
+else print success!!. If printing of "success!!"is successful, print the correct sequence of Order of Evaluation in C.
+*/
+
+
 #include <stdio.h>
 
 int main() {
