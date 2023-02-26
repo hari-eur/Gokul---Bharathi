@@ -22,7 +22,7 @@ int main() {
   
   printf("Array Elements: ");
   for (i = 0; i < n; i++) {
-    count = printf("%d ", arr[i]);
+    count += printf("%d ", arr[i]);
   }
   
   if (count < 10) {
