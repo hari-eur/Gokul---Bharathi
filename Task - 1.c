@@ -62,7 +62,6 @@ int main() {
             goto operation;
         case 3:
             // account details
-            account:
             printf("\nAccount Details:\n");
             printf("1. Savings Account\n");
             printf("2. Current Account\n");
@@ -80,24 +79,24 @@ int main() {
                     // benefits of savings account
                     printf("\nBenefits:\n");
                     printf("1. Interest Rate: 4%% per annum\n");
-                    goto account;
+                    break;
                 case 2:
                     printf("\nSelected Account: Current Account\n");
                     // benefits of current account
                     printf("\nBenefits:\n");
                     printf("1. No minimum balance required\n");
-                    goto account;
+                    break;
                 case 3:
                     printf("\nSelected Account: Demat Account\n");
                     // benefits of demat account
                     printf("\nBenefits:\n");
                     printf("1. Hassle-free trading\n");
-                    goto account;
+                    break;
                 default:
                     printf("\nInvalid account choice\n");
                     exit(0);
             }
-            goto operation;
+           break;
         default:
             printf("\nInvalid operation choice\n");
             exit(0);
@@ -105,4 +104,3 @@ int main() {
 
     return 0;
 }
-
